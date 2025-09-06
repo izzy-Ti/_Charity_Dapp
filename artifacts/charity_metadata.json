@@ -63,11 +63,6 @@
 						"internalType": "string",
 						"name": "_name",
 						"type": "string"
-					},
-					{
-						"internalType": "address payable",
-						"name": "_charityAddress",
-						"type": "address"
 					}
 				],
 				"name": "createCharity",
@@ -84,6 +79,19 @@
 					}
 				],
 				"name": "donate",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "charityIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
@@ -117,11 +125,11 @@
 	},
 	"sources": {
 		"contracts/Charity.sol": {
-			"keccak256": "0x68544e4f2a88693873458961a61b5e13563be4ac59e5ee279fc57851d104f465",
+			"keccak256": "0x5dad096d67e409f53cd4bcd3a328ef6c9cf5436820e41fda0472f729f23c157f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://64d17c2844afa2cf29d7ab0455f6b33cff843d4cb52aa6993397838dd8fd034e",
-				"dweb:/ipfs/QmQpkMkuZADEG5wZDBsPzCXRTfzUwMsEZGoCXyKNYhmgv7"
+				"bzz-raw://2ab524affccd879a0f48be62624e673c559bd36cbde0e85a9354427795bed156",
+				"dweb:/ipfs/QmezcDmCqzaJRi7JcoZequJYPkwinekHg36GQN7LZWxtp2"
 			]
 		}
 	},
